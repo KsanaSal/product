@@ -121,6 +121,7 @@ button {
     line-height: 1.2;
     font-weight: 700;
     border: none;
+    text-transform: capitalize;
 }
 .button:hover{
     background-color: var(--medium-background-color);
@@ -163,4 +164,76 @@ button {
     background-color: transparent;
     border: 1px solid var(--medium-background-color);
     color: var(--primery-text-color);
+}
+
+/* hero styles */
+.hero{
+    padding: 30px 0;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 520px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-title{
+    font-size: 44px;
+    line-height: 1.2;
+    color: var(--dark-text-color);
+    font-weight: 700;
+}
+.hero-description{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.button--primary{
+    padding: 15px 40px;
+    text-transform: none;
+}
+.button--secondary{
+    padding: 15px 0;
+    text-transform: none;
+    background-color: unset;
+    border: none;
+    color: var(--accent-text-color);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.button--secondary:hover{
+    text-decoration: none;
+    color: var(--primery-text-color);
+    background-color: unset;
+    box-shadow: none;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    fill: var(--accent-text-color);
+}
+.button--secondary:hover .icon{
+    fill: var(--primery-text-color);
+}
+.hero-image{
+    width: 605px;
+    height: 500px;
 }
