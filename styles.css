@@ -105,3 +105,62 @@ button {
     max-width: 1130px;
     margin: 0 auto;
 }
+
+.title {
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--dark-text-color);
+    font-weight: 700;
+}
+.button{
+    padding: 10px 20px;
+    background-color: var(--accent-background-color);
+    border-radius: 4px;
+    color: var(--light-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    border: none;
+}
+.button:hover{
+    background-color: var(--medium-background-color);
+    color: var(--accent-text-color);
+    box-shadow: var(--shadow);
+}
+
+/* header styles */
+.header{
+    font-size: 14px;
+    padding-bottom: 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.logo{
+    width: 187px;
+    height: px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+}
+.header-buttons{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.button--sign{
+    background-color: transparent;
+    border: 1px solid var(--medium-background-color);
+    color: var(--primery-text-color);
+}
