@@ -302,38 +302,33 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-.design-content {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    width: 500px;
-}
-.design-text {
+.content {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 500px;
 }
-.design-title {
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.text-title {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
-.subtitle {
-    font-size: 16px;
-    color: var(--medium-text-color);
-    font-weight: 500;
-}
-.design-list {
+.list {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.design-item {
+.item {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.design-item-title {
+.item-title {
     font-size: 16px;
     color: var(--dark-text-color);
     font-weight: 700;
@@ -341,4 +336,60 @@ button {
 .design-image {
     width: 520px;
     height: 574px;
+}
+
+/* product styles */
+.product {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-image {
+    width: 535px;
+    height: 521px;
+}
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.product-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.product-icon {
+    width: 35px;
+    height: 35px;
+}
+.product-text {
+    width: 385px;
+}
+
+/* marketers styles */
+.marketers {
+    padding-top: 104px;
+    padding-bottom: 146px;
+}
+.marketers-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.marketers-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+.marketers-image {
+    width: 542px;
+    height: 609px;
 }
