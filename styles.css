@@ -240,9 +240,27 @@ button {
 
 /* features styles */
 .features {
+    position: relative;
     padding-top: 110px;
     padding-bottom: 0;
 }
+.semi-circle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2250px;
+    height: 390px;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 229, 210, 0.63),
+        rgba(255, 244, 229, 0)
+    );
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    overflow: hidden;
+}
+
 .features-container {
     display: flex;
     flex-direction: column;
